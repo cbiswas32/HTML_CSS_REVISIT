@@ -1,0 +1,91 @@
+.uber{
+    background-color: black;
+    color: white;
+    height: 35px;
+    width: 115px;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+    margin: 5px;
+
+}
+.amazon {
+    background-color: rgb(255, 216, 20);
+    border: none;
+    height: 35px;
+    width: 170px;
+    border-radius: 70px;
+    cursor: pointer;
+    margin: 5px;
+
+}
+.github {
+    background-color: rgb(46, 164, 79);
+    color: white;
+    border: none;
+    height: 35px;
+    width: 95px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 5px;
+    font-weight: bold;
+
+}
+
+.bootstrap-GS{
+    background-color: rgb(121, 82, 179);
+    color: white;
+    border: none;
+    height: 35px;
+    width: 95px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 5px;
+    font-weight: bold;
+
+
+}
+
+.bootstrap-D{
+    background-color: white;
+    color: rgb(108, 117, 125);
+    border-color: rgb(108, 117, 125) ;
+    border-style: solid;
+    border-width: 1px;
+    height: 35px;
+    width: 100px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 5px;
+    font-weight: bold;
+
+}
+
+
+.linkedin-Apply{
+    background-color: rgb(10, 102, 194);
+    color: white;
+    border: none;
+    height: 35px;
+    width: 200px;
+    border-radius: 100px;
+    cursor: pointer;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.linkedin-SAVE{
+
+    background-color: white;
+    color: rgb(62, 130, 190);
+    border-color: rgb(52, 115, 170) ;
+    border-style: solid;
+    border-width: 1px;
+    height: 35px;
+    width:90px;
+    border-radius: 45px;
+    cursor: pointer;
+    margin: 5px;
+    font-weight: bold;
+
+}
