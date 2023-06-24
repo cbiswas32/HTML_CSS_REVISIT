@@ -1,0 +1,31 @@
+
+p {
+    font-family: Roboto;
+    margin-top: 0px;
+}
+.model-3{
+    
+    font-weight: bold;
+    font-size: 50px;
+    width: 250px;
+    line-height: 26px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    
+}
+
+.text{
+    
+    font-size: 15px;
+    width: 250px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.text-underline{
+   
+  text-decoration: underline;
+    
+}

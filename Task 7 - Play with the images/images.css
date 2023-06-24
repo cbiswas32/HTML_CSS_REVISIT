@@ -1,0 +1,135 @@
+.normal-search{
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size:18px;
+    border-color: gray;
+    border-width: 1px;
+}
+.shadow-search{
+    width: 600px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 300px;
+    padding-left: 15px;
+    font-size:14px;
+    border-style: none;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+
+}
+.lnkd-signup{
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+}
+.email-lnkd{
+    padding-bottom: 10px;
+    width: 300px;
+    
+
+}
+.lnkd-signup p{
+    font-size: 15px;
+}
+.lnkd-input{
+    width: 300px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 4px;
+    padding-left: 10px;
+    font-size:18px;
+    border-color: gray;
+    border-width: 1px;
+    margin-top: 10px;
+
+
+}
+
+.agree-join-lnkdn{
+    background-color: rgb(15, 96, 245);
+    color: white;
+    border: none;
+    width: 300px;
+    border-radius: 125px;
+    padding-left:40px;
+    padding-right:40px;
+    padding-top:15px;
+    padding-bottom:15px;
+    font-size: 15px;
+    cursor: pointer;
+}
+    
+.tweet-tweeter{
+    background-color: rgb(18, 151, 228);
+    color: white;
+    border: none;
+    border-radius: 125px;
+    padding-left:25px;
+    padding-right:25px;
+    padding-top:12px;
+    padding-bottom:12px;
+    font-size: 15px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.cat-img-round-tweeter{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 25px;
+   
+    vertical-align: middle;
+}
+
+.tweeter-input{
+    border:none;
+    font-size: 18px;
+    padding-left: 5px;
+    vertical-align: middle;
+    
+    
+}
+
+
+
+
+
+
+
+.prac-img{
+    width: 300px;
+    height: 300px;
+    border-width: 3px;
+    border-color: red;
+    border-style: solid;
+    object-fit: contain;
+    object-position: bottom;
+    margin-bottom: 70px;
+      
+}
+
+.cat-img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+    margin-right: 50px;
+}
+.cat-img-round{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 125px;
+    margin-right: 50px;
+}
+
+.cat-img-corner{
+    width: 200px;
+    border-radius: 20px;
+    
+}
