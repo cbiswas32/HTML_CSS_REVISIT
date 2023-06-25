@@ -1,0 +1,177 @@
+.uber{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    font-family: Roboto;
+    margin: 20px;
+    padding: 10px;
+    width: 400px;
+
+}
+.uber-text{
+    display: block;
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.uber-input{
+    display: block;
+    margin-left: 5px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    width: 92%;
+    
+    
+}
+.uber-schedule-later{
+    background-color: rgb(218, 218, 218);
+    padding:12px 15px ;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    
+    
+}
+.uber-req-now{
+    margin-left: 5px;
+    margin-right: 10px;
+    background-color: black;
+    color: white;
+    padding:12px 15px ;
+    font-size: 15px;
+    border: none; 
+    cursor: pointer;
+    
+}
+
+.uber-btn-sec{
+    margin-top: 35px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.signup{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    font-family: Roboto;
+    margin: 20px;
+    padding: 10px;
+    width: 400px;
+
+}
+.signup-fn{
+    padding-top: 10px;
+    margin-right: 5px;
+    padding-bottom: 10px;
+    
+
+    
+}
+.signup-ln{
+    padding-top: 10px; 
+    padding-bottom: 10px;
+   
+    
+}
+.signup-email{
+    display: block;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    width: 350px;
+    box-sizing: border-box;
+    
+}
+.sign-up{
+    background-color: rgb(15, 111, 221);
+    color: white;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    width: 350px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.google{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    font-family: Roboto;
+    margin: 20px;
+    padding: 10px;
+    width: 400px;
+    text-align: center;
+
+
+}
+
+.google-img{
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    
+}
+
+.google-input{
+    
+    background-color: white;
+    color: grey;
+    width: 350px;
+    border: none;
+    border-radius: 175px;
+    box-shadow: 0 0 10px rgba(0,0,0,.25);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-size: 11px;
+    margin-bottom: 30px;
+    
+}
+.text-button{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    font-family: Roboto;
+    margin: 20px;
+    padding: 10px;
+    width: 400px;
+    
+
+}
+.btn-sec-survay{
+    display: inline-block;
+    margin-left: 30px;
+
+}
+.survey{
+    display: inline-block;
+    width: 200px;
+    vertical-align: middle;
+}
+
+.normal-input{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    font-family: Roboto;
+    margin: 20px;
+    padding: 10px;
+    width: 400px;
+
+}
+.name{
+    display: block;
+    margin-bottom: 10px;
+}
