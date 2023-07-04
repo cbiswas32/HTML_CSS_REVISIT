@@ -1,0 +1,43 @@
+.youtube-vdos{
+    font-family: Roboto;
+    width: 300px;
+}
+.thumbnaail-picture{
+    width: 300px;
+}
+
+.channel-photo-container{
+    display: inline-block;
+    width: 50px;
+    vertical-align: top;
+
+
+    
+}
+.channel-photo{
+    width: 100%;
+    border: none;
+    border-radius: 25px;
+    
+}
+
+.channel-info-container{
+    display: inline-block;
+    width: 200px;
+    padding-left: 10px;
+}
+.video-title{
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 0px;
+
+}
+.creator-name{
+    font-size: 12px;
+    color: rgb(146, 146, 146);
+
+}
+.video-stats{
+    font-size: 12px;
+    color: rgb(146, 146, 146);
+}
