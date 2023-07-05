@@ -1,0 +1,202 @@
+p{
+    font-family: Roboto, Arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+.oliver-the-only-cat-container{
+    width: 300px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+}
+.cat-column-1{
+    width: 50px;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.cat-profile-picture{
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    
+}
+.cat-column-2{
+    width: 120px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    
+}
+.cat-name{
+    font-weight: bold;
+    
+    margin-bottom: 2px;
+    
+}
+.cat-description{
+    color: rgb(96, 96, 96);
+    margin-bottom: 2px;
+    
+}
+.popular{
+    color: rgb(96, 96, 96);
+    
+
+}
+.cat-column-3{
+    width: 100px;
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+.cat-follow{
+    background-color: rgb(34, 138, 207);
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+    border: none;
+}
+
+.oliver-and-his-friends{
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    width: 350px;
+    margin-top: 25px;
+
+}
+.cat-container{
+    width: 300px;
+    padding: 10px;
+    
+}
+.many-yt{
+    width: 450px;
+    padding: 5px;
+    margin-top: 15px;
+    border-style: solid;
+    border-width: 1px;
+
+}
+
+.youtube-main-container{
+    width: 400px;
+    padding: 5px;
+    margin-top: 15px;
+
+}
+.yt-c-1{
+    display: inline-block;
+    width: 150px;
+    vertical-align: top;
+}
+.youtube-thumbnail{
+    border: none;
+    border-radius: 0.5;
+    width: 100%;
+}
+
+.yt-c-2{
+    display: inline-block;
+    width: 200px;
+    margin-left: 5px;
+    vertical-align: top;
+    
+}
+.yt-stats{
+    font-size: 12px;
+    color: rgb(96, 96, 96);
+
+}
+.yt-chanel-name{
+    margin-top: 4px;
+    font-size: 12px;
+    color: rgb(96, 96, 96);
+
+}
+.yt-title{
+    font-weight: 700;
+    font-size: 15px;
+
+}
+
+
+.facebook-div{
+    font-family: Roboto;
+    width: 180px;
+    border-radius: 1px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
+    margin: 15px;
+    display: inline-block;
+    
+}
+
+.cat-fb{
+    width: 180px;
+    height: 190px;
+    margin-bottom: 5px;
+    
+}
+
+.info-fb{
+    margin: 5px;
+    
+}
+
+.name-fb{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1px;
+    margin-top: 5px;
+    
+}
+.mutual-friend-container{
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+
+}
+.fb-mf-c-1{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.fb-mf-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    
+}
+
+.fb-mf-c-2{
+    width: 70%;
+    display: inline-block;
+
+}
+
+
+.mutual-friend-fb{
+    font-size: 12px;
+    color: rgb(130, 131, 133);
+
+}
+
+.add-friend-fb{
+    background-color: rgb(20, 110, 212);
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 15px;
+    
+}
