@@ -1,0 +1,91 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    width: 300px;
+
+}
+.e11a{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 200px 75px;
+
+}
+.e11b{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 50px 1fr 75px;
+
+}
+.e11c{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 10px;
+
+}
+.pink{
+    background-color: pink;
+    height: 50px;
+
+}
+.blue{
+    background-color: rgb(96, 96, 231);
+    height: 50px;
+}
+
+.facebbok{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 100px;
+    column-gap: 80px;
+    align-items: center;
+}
+
+.facebook-div{
+    font-family: Roboto;
+    width: 100%;
+    border-radius: 1px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
+    margin: 15px;
+    display: inline-block;
+    
+}
+
+.cat-fb{
+    width: 100%;
+    height: 190px;
+    
+}
+
+.info-fb{
+    margin: 5px;
+    
+}
+
+.name-fb{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1px;
+    
+}
+
+.mutual-friend-fb{
+    font-size: 12px;
+    color: rgb(130, 131, 133);
+
+}
+
+.add-friend-fb{
+    background-color: rgb(20, 110, 212);
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 15px;
+    
+}

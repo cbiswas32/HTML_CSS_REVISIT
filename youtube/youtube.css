@@ -2,26 +2,29 @@ p{
     margin-bottom: 0px;
     margin-top: 0px;
 }
+.youtube-video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 20px;
+}
 .youtube-vdos{
     font-family: Roboto;
-    width: 300px;
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 10px;
 }
 .thumbnaail-picture{
-    width: 300px;
+    width: 100%;
 }
 .thumbnail-container{
     margin-bottom: 12px;
 }
 
+.info-container{
+    display: grid;  
+    grid-template-columns: 40px 1fr;
+}
+
 .channel-photo-container{
-    display: inline-block;
-    width: 40px;
-    vertical-align: top;
-
-
+    
     
 }
 .channel-photo{
@@ -32,8 +35,7 @@ p{
 }
 
 .channel-info-container{
-    display: inline-block;
-    width: 200px;
+    
     padding-left: 10px;
 }
 .video-title{
