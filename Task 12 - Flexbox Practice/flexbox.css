@@ -1,0 +1,95 @@
+.fb-bar-container{
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    margin-top: 50px;
+    
+
+}
+.home, .notification, .message{
+    display: flex;
+    justify-content: space-between;
+    margin:10px;
+    align-items: center;
+    
+
+
+}
+.text{
+   font-family: Roboto;
+   font-size: 15px;
+   font-weight: 500;
+}
+.noti-count{
+    background-color: rgb(96, 50, 223);
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px ;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.taskbar-container{
+    background-color: rgb(155, 98, 247);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Roboto;
+    margin-top: 50px;
+    height: 50px;
+
+
+}
+
+.taskbar-home{
+    width: 10%;
+    color: white;
+    padding-left: 10px;
+    
+}
+
+.taskbar-search{
+    flex: 1;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.taskbar-download{
+    width: 15%;
+    display: flex;
+    justify-content: end;
+    padding-right: 20px;
+    
+}
+
+.search-bar{
+    color: grey;
+    border-radius: 100px;
+    height:35px;
+    width: 100%;
+    border-style: none;
+    padding-left: 10px;
+}
+
+.download-btn{
+    padding-top: 7px;
+    padding-bottom:7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    background-color: rgb(155, 98, 247);
+    color: white;
+    border-style: solid;
+    border-color: white;
+
+}
+

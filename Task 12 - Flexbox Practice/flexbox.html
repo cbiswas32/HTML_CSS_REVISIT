@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="flexbox.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans:wght@300&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Flex Box</title>
+</head>
+<body>
+    <div class="flex-container" style="
+        display: flex;
+        flex-direction: row;
+        ">
+        <div class="div-1" style="
+            background-color: lightblue;
+            width: 100px;
+            ">
+            100px
+        </div>
+        <div class="div-2" style="
+            background-color: lightpink;
+            flex:1
+            ">
+            flex 1
+        </div>
+        <div class="div-2" style="
+            background-color: lightblue;
+            flex: 2
+            ">
+            flex 2
+        </div>
+    </div>
+
+    <div class="flex-container" style="
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    height: 70px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    justify-content: center;
+    
+    ">
+    <div class="div-1" style="
+        background-color: lightblue;
+        width: 100px;
+        ">
+        100px
+    </div>
+    <div class="div-2" style="
+        background-color: lightpink;
+        width: 100px;
+        ">
+        100px
+    </div>
+    <div class="div-2" style="
+        background-color: lightblue;
+        width: 100px;
+        ">
+        100px
+    </div>
+</div>
+<div class="flex-container" style="
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    height: 70px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    justify-content: space-between;
+    
+    ">
+    <div class="div-1" style="
+        background-color: lightblue;
+        width: 100px;
+        ">
+        100px
+    </div>
+    <div class="div-2" style="
+        background-color: lightpink;
+        width: 100px;
+        ">
+        100px
+    </div>
+    <div class="div-2" style="
+        background-color: lightblue;
+        width: 100px;
+        ">
+        100px
+    </div>
+</div>
+<div class="flex-container" style="
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    height: 70px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    
+    
+    ">
+    <div class="div-1" style="
+        background-color: lightblue;
+        width: 50px;
+        ">
+        50px
+    </div>
+    <div class="div-2" style="
+        background-color: lightpink;
+        flex: 1;
+        ">
+        item2
+    </div>
+    <div class="div-2" style="
+        background-color: lightblue;
+        width: 75px;
+        ">
+        75px
+    </div>
+</div>
+<div class="flex-container" style="
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    height: 70px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    justify-content: space-between;
+    
+    ">
+    <div class="div-1" style="
+        background-color: lightblue;
+        width: 75px;
+        ">
+        1
+    </div>
+    <div class="div-2" style="
+        background-color: lightpink;
+        width: 75px;
+        ">
+        2
+    </div>
+    <div class="div-2" style="
+        background-color: lightblue;
+        width: 75px;
+        ">
+        3
+    </div>
+    <div class="div-2" style="
+        background-color: lightblue;
+        width: 75px;
+        ">
+         4
+    </div>
+</div>
+<div class="flex-container" style="
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    height: 70px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    justify-content: space-between;
+    align-items: center;
+    
+    ">
+    <div class="div-1" style="
+        background-color: lightblue;
+        width: 75px;
+        ">
+        1
+    </div>
+    <div class="div-2" style="
+        background-color: lightpink;
+        width: 75px;
+        ">
+        2
+    </div>
+</div>
+<div class="fb-bar-container">
+    <div class="home">
+        <div class="text">Home</div>
+        <div class="noti-count">14</div>
+    </div>
+    <div class="notification">
+        <div class="text">Notifications</div>
+        <div class="noti-count">3</div>
+    </div>
+    <div class="message">
+        <div class="text">Messages</div>
+        <div class="noti-count">5</div>
+    </div>
+</div>
+
+<div class="taskbar-container">
+    <div class="taskbar-home">Home</div>
+    <div class="taskbar-search">
+        <input type="text" placeholder="search" class="search-bar">
+    </div>
+    <div class="taskbar-download">
+        <button class="download-btn">Download</button>
+    </div>
+</div>
+    
+</body>
+</html>

@@ -2,6 +2,7 @@ p{
     margin-bottom: 0px;
     margin-top: 0px;
 }
+
 .youtube-video-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
