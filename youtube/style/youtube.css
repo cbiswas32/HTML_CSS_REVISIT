@@ -16,6 +16,23 @@ p{
 }
 .thumbnail-container{
     margin-bottom: 12px;
+    position: relative;
+}
+.video-time{
+position: absolute;
+bottom: 8px;
+right: 5px;
+background-color: black;
+color: white;
+font-family: Roboto;
+font-size: 14px;
+padding-top: 3px;
+padding-bottom: 3px;
+padding-left: 4px;
+padding-right: 4px;
+border-radius: 3px;
+font-weight: 500;
+
 }
 
 .info-container{
@@ -55,3 +72,4 @@ p{
     color: rgb(96, 96, 96);
     margin-top: 0px;
 }
+

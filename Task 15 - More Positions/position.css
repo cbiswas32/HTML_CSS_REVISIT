@@ -1,0 +1,101 @@
+body{
+    margin-bottom: 1000px;
+}
+.page-close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+
+}
+.box{
+    width: 320px;
+    height: 180px;
+    background-color: darkgray;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.page-close-inside{
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+
+}
+.timer{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 2px;
+    position: absolute;
+    bottom: 4px;
+    right: 4px;
+    color: white;
+    background-color: black;
+}
+.clothing-container{
+    position: relative;
+    width: 250px;
+}
+.img-container{
+    width: 250px;
+    position: relative;
+
+}
+.cloth-img{
+    width: 100%;
+
+}
+.discount{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+    position: absolute;
+    top: 8px;
+    right: 0px;
+}
+.overlay{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    background-color: rgba(255,255,255, 0.7);
+    height: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.add-cart{
+    background-color: rgba(255,255,255, 0.9);
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+
+}

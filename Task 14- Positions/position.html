@@ -15,22 +15,46 @@ padding-left: 70px; margin-bottom: 5000px;" >
         left: 0;
         right: 0;
         height: 60px;
+        z-index: 1;
         ">Header</div>
     <div class="sidebar" style= "
     background-color: rgb(236, 27, 108);
     position: fixed;
         top: 60px;
         left: 0;
-        width: 60px;
+        width: 80px;
         bottom: 0;
-    ">Sidebar</div>
-    <div class="body-container">
-        <div class="div1"
+    ">Sidebar
+    <div style="
+    position: absolute;
+    background-color: rgb(19, 16, 16);
+    color: white;
+    right: 0;
+    top: 0;
+    ">X</div>
+    </div>
+    <div style="
+        position: absolute;
+        background-color: red;
+        color: white;
+        right: 10px;
+    ">absolute</div>
+
+    <div class="body-container" style="margin-left: 50px;">
+        <div class="div1" 
         style="
         background-color: rgb(78, 170, 49);
-        height: 1000px;
+        height: 100px;
         width: 500px;
-        ">Div 1</div>
+        position: relative;
+        ">Div 1
+         <div style="
+         position: absolute;
+         background-color: red;
+         color: white;
+         right: 10px;
+        ">absolute</div>
+        </div>
         <div class="div2" 
         style="
         background-color: rgb(204, 189, 50);
@@ -38,6 +62,7 @@ padding-left: 70px; margin-bottom: 5000px;" >
         width: 500px;
         ">Div 2</div>
     </div>
+    
     
 </body>
 </html>

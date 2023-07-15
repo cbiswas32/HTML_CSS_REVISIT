@@ -12,6 +12,7 @@
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: rgb(209, 207, 207);
+    z-index: 100;
     
 }
 
@@ -93,7 +94,37 @@
     
 }
 
-.right-section-header img{
+.right-section-header img {
     height: 24px;
 
+}
+
+.notification-icon{
+    height: 24px;
+}
+.notification{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.noti-count{
+    position: absolute;
+    top: 0;
+    right: -3px;
+    background-color: rgb(175, 8, 8);
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 8px;
+    font-family: Roboto;
+    font-size: 8px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
